@@ -1,1 +1,42 @@
-# ewa-crewai-example-a
+# waa-starter-kit-code
+
+A repo of starter code kit for web-automation agent
+
+## Step 1: Creat a new python virtual environment (python3.11 recommended) and install all the dependencies
+
+1. Create a new virtual environment
+
+   ```bash
+   python3.11 -m venv .venv
+   ```
+
+2. Activate the environment
+
+    ```bash
+    source .venv/bin/activate
+    ```
+
+3. Install the dependencies
+
+    ```bash
+    python3.11 -m pip install -r requirements.txt
+    ```
+
+## Step 2: Get API key
+
+Get an API key from <https://dashboard.emergence.ai>, and populate it and an OpenAI key in a `.env` file:
+
+```bash
+OPENAI_API_KEY="<your API key here>"
+EMERGENCE_API_KEY="<your API key here>"
+```
+
+## Step 3: Run the starter code
+
+ Run the starter codes for Crewai or Langgraph
+
+1. Run the starter code
+
+    ```bash
+        python3.11 crewai_code.py
+    ```
